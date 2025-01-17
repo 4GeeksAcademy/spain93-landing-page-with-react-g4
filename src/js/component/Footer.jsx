@@ -4,7 +4,7 @@ export const Footer = () => {
 
 
     return (
-        <div className="container">
+        <div className="mt-4">
             <nav className="navbar bg-dark">
                 <div className="container-fluid justify-content-center">
                     <span className="navbar-text text-white">
