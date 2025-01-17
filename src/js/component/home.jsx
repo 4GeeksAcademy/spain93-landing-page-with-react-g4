@@ -1,11 +1,15 @@
 import React from "react";
+import Jumbotron from "./Jumbotron.jsx"
 import Navbar from "./Navbar.jsx";
 
 
-//create your first component
 const Home = () => {
 	return (
-		<Navbar />
+		<div className="text-center">
+			<Navbar />
+			<Jumbotron/>
+		</div>
+		
 	);
 };
 
