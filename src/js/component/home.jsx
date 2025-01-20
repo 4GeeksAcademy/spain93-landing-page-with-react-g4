@@ -1,7 +1,10 @@
 import React from "react";
 import Jumbotron from "./Jumbotron.jsx";
 import Navbar from "./Navbar.jsx";
+import { Footer } from "./Footer.jsx";
 import { Card } from "./Card.jsx";
+
+
 const Home = () => {
     return (
         <div className="text-center">
@@ -15,7 +18,9 @@ const Home = () => {
                     <Card />
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };
+
 export default Home;
